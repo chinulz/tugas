@@ -21,9 +21,9 @@ function login() {
 		document.getElementById('text').innerHTML += text.charAt(i);
 		i++;
 		setTimeout(typing, 350);
-    	}
-      } typing();
-      document.getElementById('tombol').innerHTML = `Berhasil`;
-      window.setTimeout("window.close();", 13000)
+    		}
+	} typing();
+	document.getElementById('tombol').innerHTML = `Berhasil`;
+	window.setTimeout("window.close();", 13000)
 	} 
- }
+}
