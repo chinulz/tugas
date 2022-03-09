@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif;*/
+
+body {
+	background-image: url("https://imgkub.com/images/2022/03/08/lucu.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+    }
+
+h1 {
+	position: relative;
+	color: #ffffff;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	top: 300px;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2 {
+	text-shadow: 0 0 20px #fff;
+	font-family: 'Anton', sans-serif;
+	background: #FF0000;
+	background: -webkit-linear-gradient(to bottom, #CE50FF 0%, #F0BFBF 100%);
+	background: -moz-linear-gradient(to bottom, #CE50FF 0%, #F0BFBF 100%);
+	background: linear-gradient(to bottom, #CE50FF 0%, #F0BFBF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;x
+}
+
+.tengah {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    background: #FF0000;
+	background: -webkit-linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
+	background: -moz-linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
+	background: linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    color: white;
+    border: white 2px solid;
+    border-radius: 50px;
+    padding: 2px 20px;
+    text-shadow: 0 0 20px #fff;
+}
+pre {
+	position: relative;
+	color:  #ffffff;
+	font-size: 20px;
+	text-align: center;
+	top: 80vh;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
