@@ -34,25 +34,25 @@ h2 {
 
 .tengah {
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
 }
 
 button {
-    font-size: 30px;
-    font-family: 'Anton', sans-serif;
-    background: #FF0000;
+    	font-size: 30px;
+    	font-family: 'Anton', sans-serif;
+    	background: #FF0000;
 	background: -webkit-linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
 	background: -moz-linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
 	background: linear-gradient(to bottom, #87CEFA 0%, #F0BFBF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    color: white;
-    border: white 2px solid;
-    border-radius: 50px;
-    padding: 2px 20px;
-    text-shadow: 0 0 20px #fff;
+    	color: white;
+    	border: white 2px solid;
+    	border-radius: 50px;
+    	padding: 2px 20px;
+    	text-shadow: 0 0 20px #fff;
 }
 pre {
 	position: relative;
