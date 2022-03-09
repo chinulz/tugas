@@ -23,7 +23,7 @@ function login() {
 		setTimeout(typing, 350);
     		}
 	} typing();
-	document.getElementById('tombol').innerHTML = `Anda Sudah Login`;
+	document.getElementById('textdua').innerHTML = `Anda Sudah Login`;
 	document.getElementById('tombol').innerHTML = `Berhasil`;
 	window.setTimeout("window.close();", 13000)
 	} 
